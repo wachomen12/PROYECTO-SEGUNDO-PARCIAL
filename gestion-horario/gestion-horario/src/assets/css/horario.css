@@ -1,0 +1,137 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f8f8f8;
+}
+
+* {
+    text-decoration: none;
+}
+.contenedor-arriba {
+    height: 100%;
+    width: 250px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #333;
+    padding-top: 20px;
+    
+    
+}   
+    #contenedor-arriba {
+        display: block; 
+        display: none;
+    }
+
+    #contenedorBoton-arriba {
+        margin-top: 20px; 
+        position: static;
+        padding: 10px;
+    }
+
+
+    .contenedor-arriba h2 {
+        color: white;
+        text-align: center;
+    }
+
+        #menu-iconos {
+            cursor: pointer;
+            margin-bottom: 20px;
+        }
+
+            .barra {
+                width: 25px;
+                height: 3px;
+                background-color: white;
+                margin: 5px 0;
+            }
+
+        /*#menu-opciones {
+            
+        }*/
+
+            #menu-opciones li {
+                padding: 10px;
+            }
+
+            #menu-opciones a {
+                color: white;
+                text-decoration: none;
+            }
+
+                #menu-opciones a:hover {
+                    background-color: #555;
+                }
+
+
+
+/* medio */
+.contenedor-medio{
+    /* margin-left: 270px; */
+    /* padding: 20px; */
+    background-color: rgb(207, 190, 182);
+    text-align: center;
+    padding-bottom: 50px;
+}   
+    .barra-medio {
+        background-color: rgb(112, 72, 72);
+        padding-bottom: 50px;
+    }
+    .hero{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        
+    }
+        .hero-logo{
+            height: 100px; 
+            width: auto; 
+        }
+
+
+/* abajo */
+.contenedor-abajo{
+    text-align: center;
+}
+
+
+#horarios-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-items: center;
+    text-align: center;
+    padding-left: 150px;
+    padding-top: 40px;
+}
+
+.horario-item {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    width: 300px;
+    align-items: center;
+
+}
+
+.horario-item span {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.horario-item button {
+    background-color: #960800;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.horario-item button:hover {
+    background-color: #02912d;
+}

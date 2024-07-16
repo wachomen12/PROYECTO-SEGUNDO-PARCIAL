@@ -1,0 +1,128 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(../image/uleamFondo.jpg);
+}
+* {
+    text-decoration: none;
+}
+.contenedor-arriba {
+    height: 100%;
+    width: 250px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #333;
+    padding-top: 20px;
+    
+    
+}   
+    #contenedor-arriba {
+        display: block; 
+        display: none;
+    }
+
+    #contenedorBoton-arriba {
+        margin-top: 20px; 
+        position: static;
+        padding: 10px;
+    }
+
+
+    .contenedor-arriba h2 {
+        color: white;
+        text-align: center;
+    }
+
+        #menu-iconos {
+            cursor: pointer;
+            margin-bottom: 20px;
+        }
+
+            .barra {
+                width: 25px;
+                height: 3px;
+                background-color: white;
+                margin: 5px 0;
+            }
+
+        /*#menu-opciones {
+            
+        }*/
+
+            #menu-opciones li {
+                padding: 10px;
+            }
+
+            #menu-opciones a {
+                color: white;
+                text-decoration: none;
+            }
+
+                #menu-opciones a:hover {
+                    background-color: #555;
+                }
+
+
+        /* Estilos para el panel de inicio de sesión */
+
+.panel-login {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    align-items: center;
+}
+
+.panel-login h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.panel-login form div {
+    margin-bottom: 15px;
+}
+
+.panel-login label {
+    display: block;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+.panel-login input {
+    width: calc(100% - 20px);
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+}
+
+.panel-login button {
+    width: 100%;
+    padding: 10px;
+    background-color: #9c0000;
+    color: #fff;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.panel-login button:hover {
+    background-color: #0c5d2f
+}
+
+.panel-login .hero-logo{
+    height: 100px; 
+    width: auto; 
+}
+
+.contenedor-abajo{
+    margin-top: 250px;
+    text-align: center;
+}

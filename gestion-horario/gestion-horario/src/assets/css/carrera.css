@@ -1,0 +1,144 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #504e4e;
+}
+* {
+    text-decoration: none;
+}
+.contenedor-arriba {
+    height: 100%;
+    width: 250px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #333;
+    padding-top: 20px;
+    
+    
+}   
+    #contenedor-arriba {
+        display: block; 
+        display: none;
+    }
+
+    #contenedorBoton-arriba {
+        margin-top: 20px; 
+        position: static;
+        padding: 10px;
+    }
+
+
+    .contenedor-arriba h2 {
+        color: white;
+        text-align: center;
+    }
+
+        #menu-iconos {
+            cursor: pointer;
+            margin-bottom: 20px;
+        }
+
+            .barra {
+                width: 25px;
+                height: 3px;
+                background-color: white;
+                margin: 5px 0;
+            }
+
+        /*#menu-opciones {
+            
+        }*/
+
+            #menu-opciones li {
+                padding: 10px;
+            }
+
+            #menu-opciones a {
+                color: white;
+                text-decoration: none;
+            }
+
+                #menu-opciones a:hover {
+                    background-color: #555;
+                }
+
+
+/* medio */
+.contenedor-medio{
+    /* margin-left: 270px; */
+    /* padding: 20px; */
+    background-color: rgb(207, 190, 182);
+}   
+    .barra-medio {
+        background-color: rgb(112, 72, 72);
+        padding-bottom: 50px;
+    }
+    .hero{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        
+    }
+        .hero-logo{
+            height: 100px; 
+            width: auto; 
+        }
+
+
+.facultades-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 40px;
+    margin-left: 35px;
+}
+
+.facultad-item {
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.facultad-item img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.info {
+    padding: 10px;
+}
+
+.ver-mas-btn {
+    background-color: #ff0000;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.ver-mas-btn:hover{
+    background-color: #007e02;
+}
+
+#info-facultad {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+}
+
+.oculto {
+    display: none;
+}
